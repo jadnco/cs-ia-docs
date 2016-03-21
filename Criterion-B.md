@@ -55,6 +55,8 @@ The above diagram can be described as:
 - A `Comment` cannot exist without a reference to a parent `Spot`. Each can have 0 to an infinite amount of `Reply` references.
 - A `Reply` does not depend on a `Comment` parent association, but does depend on a parent `Spot`. There are no child associations.
 
+Many models within the product share similar relationships.
+
 #### RESTful API Routes
 
 ### Frontend

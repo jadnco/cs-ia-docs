@@ -2,13 +2,12 @@
 
 ## Description of Scenario
 
-The client for this product is an aquaintance of mine. They run their own business photographing rare and exotic cars around the world. The client was very proud of his work and wanted to share it with the rest of the *automotive enthusiast* world.
+The client for this product is an aquaintance of mine. They run their own business, photographing rare and exotic cars around the world. The client was very proud of his work and wanted to share it with the rest of the *automotive enthusiast* world.
 He ran into issues using the photo sharing apps out there today – none of them directly catered to the audience he wanted to target.
 
 Knowing I had experience building digital products, the client came to me for ideas on how we could solve this problem. We decided that a mobile automotive photo sharing app would resolve this issue.
 
 ## Rationale
-> How problem was solved, why I decided to use certain tools
 
 The client valued my time and skills so he knew that he would need to set aside some funds to get this project off the ground.
 As the client was an individual, therefore funds were limited. There was no room for hiring external resources, I had to figure out the most efficient way of creating an app that would run on the two major mobile platforms.
@@ -18,7 +17,6 @@ In the end, we decided to go with a framework developed by *Facebook Inc.* calle
 This would allow me to develop the product for iOS first, as I was more comfortable with it, and then eventually Android.
 
 ## Criteria for Success
-> What is needed to solve the problem
 
 ### Requirements
 - A database that stores all information alongside relationship association; Users can be associated to many Spots and Spots can only be associated to a single user.
@@ -29,7 +27,7 @@ This would allow me to develop the product for iOS first, as I was more comforta
 - Users should be able to create Spots with a title, caption and location.
 - Users should be able to *like* Spots, and *follow* other users.
 
-### Extras
+### Extras (time permitting)
 - Develop a web interface that can be accessed through browsers.
 - Allow users to save other types of media other than just images (ie. looped videos, slideshows).
 - Third-party service integration; Allowing users to upload media from external services like Dropbox or Google Drive.

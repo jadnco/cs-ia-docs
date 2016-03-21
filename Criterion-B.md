@@ -60,13 +60,13 @@ Many models within the product share similar relationships.
 In order to modify a record within a database, the frontend needs to send a specific HTTP request to the backend server. The request will differ depending on each action you want to perform and to which record you want to perform it on.
 Every request sent to the server is accompanied with some sort of response; this might be an object with data or simply a response code.
 
-If a `User` needed to be created, a request object would need to be sent to `/api/users` with all the associated data:
+If a `User` needed to be created, a `POST` request object would need to be sent to `/api/users` with some associated data:
 
 ```js
 {
   "user": {
     "name": "John Smith",
-    "handle": "smith89",
+    "handle": "smith89"
   }  
 }
 ```

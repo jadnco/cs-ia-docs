@@ -1,7 +1,10 @@
 # Criterion A: Planning
 
 ## Description of Scenario
-> Describe client, what the problem was
+
+The client for this product is a aquaintance of mine. They run their own business photographing rare and exotic cars around the world. The client was very proud of his work and wanted to share it with the rest of the *automotive enthusiast* world.
+He ran into issues using the photo sharing apps out there today – none of them directly catered to the audience he wanted to target.
+Knowing I had experience building digital products, the client came to me for ideas on how to solve this problem. We decided that a mobile automotive photo sharing app would solve this problem.
 
 ## Rationale
 > How problem was solved, why I decided to use certain tools

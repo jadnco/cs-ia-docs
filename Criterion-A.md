@@ -10,7 +10,7 @@ Knowing I had experience building digital products, the client came to me for id
 ## Rationale
 
 The client valued my time and skills so he knew that he would need to set aside some funds to get this project off the ground.
-As the client was an individual, therefore funds were limited. There was no room for hiring external resources, I had to figure out the most efficient way of creating an app that would run on the two major mobile platforms.
+As the client was an individual, their funds were limited. There was no room in the budget for hiring external resources; I had to figure out the most efficient way of creating an app that would run on the two major mobile platforms.
 
 Acknowledging my current skillset, I did some research to see what our options were.
 In the end, we decided to go with a framework developed by *Facebook Inc.* called *React Native*. This was a good choice, because I already had experience writing React apps for web platforms – introducing native environments into the equation would be a nice opportunity to challenge myself.
@@ -19,12 +19,11 @@ This would allow me to develop the product for iOS first, as I was more comforta
 ## Criteria for Success
 
 ### Requirements
-- A database that stores all information alongside relationship association; Users can be associated to many Spots and Spots can only be associated to a single user.
+- A database that stores all information and relationships.
 - A back-end API service that acts as a link between the front-end interfaces and the database. Every record has to be able to be read, created, updated and deleted.
 - An app interface that runs on the latest version of Apple's iOS and provides a straight-forward user experience that could easily be translated to other platforms (Android and Web).
 - Camera view that allows a user to take a photo with location data, save it to the device's photo library and then be able to upload it to an external server.
-- Asynchronous storage on the device that can store cached data such as the logged in user. Doing so would allow as few backend requests to be made as possible.
-- Users should be able to create Spots with a title, caption and location.
+- Users should be able to create Spots with a title, caption, location and some form of media.
 - Users should be able to *like* Spots, and *follow* other users.
 
 ### Extras (time permitting)
@@ -33,7 +32,6 @@ This would allow me to develop the product for iOS first, as I was more comforta
 - Third-party service integration; Allowing users to upload media from external services like Dropbox or Google Drive.
 - An interface where a user can make modifications to an image like cropping, adding filters etc.
 - Private messaging between users.
-- Searching feature that would allow users to search the entire database for certain Spots or other users that match a specified query.
 - Allow Users to make comments on Spots and reply to other comments.
 
 Word Count: 

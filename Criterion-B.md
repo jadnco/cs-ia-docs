@@ -26,21 +26,21 @@ Models are essentially a group of properties that get stored in the database.
 
 An example of a model would be a `Spot`, this table represents all the properties:
 
-| Name | Type | Default Value | Description
+| Name | Type | Description
 | --- | --- | --- | ---
-| `type` | `String` | | Specify how to display this Spot. One of `photo`, `video`, `mixed` or `location`.
-| `title` | `String` | | Title of the Spot.
-| `caption` | `String` | | Description of the Spot.
-| `photo` | `Photo.id` | | Reference to a Photo record.
-| `url` | `String` | | Web URL of Spot that can be used to share on external services.
-| `car` | `Car.id` | | Reference to a `Car` record.
-| `spotter` | `User.id` | | Reference to a `User` record. This usually gets populated on requests.
-| `created` | `Date` | `Date.now` | When the record was created.
-| `viewsCount` | `Number`| 0 | How many times the Spot has been viewed by a unique user.
-| `likesCount` | `Number`| 0 | Amount of times the spot has been liked.
-| `modified` | `Date` | | When the record was last updated.
-| `likes` | `Likes.id` | | Reference to a `Likes` record.
-| `location` | `Object` | | Location object.
+| `type` | `String` | Specify how to display this Spot. One of `photo`, `video`, `mixed` or `location`.
+| `title` | `String` | Title of the Spot.
+| `caption` | `String` | Description of the Spot.
+| `photo` | `Photo.id` | Reference to a Photo record.
+| `url` | `String` | Web URL of Spot that can be used to share on external services.
+| `car` | `Car.id` | Reference to a `Car` record.
+| `spotter` | `User.id` | Reference to a `User` record. This usually gets populated on requests.
+| `created` | `Date` | When the record was created.
+| `viewsCount` | `Number`| How many times the Spot has been viewed by a unique user.
+| `likesCount` | `Number`| Amount of times the spot has been liked.
+| `modified` | `Date` | When the record was last updated.
+| `likes` | `Likes.id` | Reference to a `Likes` record.
+| `location` | `Object` | Location object, contains latitude, longitude, altitude, city and country.
 
 Each model can develop relationships by including references to other models, this can been seen above with the `photo`, `car`, `spotter`, and `likes` properties.
 

@@ -13,8 +13,6 @@
 | **Total** |  | 100.00 |  |  |
 
 ## Design
-> Rundown of the classes, components etc. and UI Design, animations.
-  Also need to describe how everything was tested (ie. unit testing, manually)
 
 This product needed to be separated into two. The *backend* deals with running the server, and accessing a database through a RESTful API. The *frontend* is the app that runs on the mobile device, it is what the end-user interacts with.
 
@@ -22,7 +20,7 @@ This product needed to be separated into two. The *backend* deals with running t
 
 #### Models
 
-Models are essentially a group of properties that get stored in the database.
+Models are a group of properties that get stored in the database.
 
 An example of a model would be a `Spot`, this table represents all the properties:
 
@@ -58,6 +56,39 @@ The above diagram can be described as:
 Many models within the product share similar relationships.
 
 #### RESTful API Routes
+
+In order to modify a record within a database, the frontend needs to send a specific HTTP request to the backend server. The request will differ depending on each action you want to perform and to which record you want to perform it on.
+Every request sent to the server is accompanied with some sort of response; this might be an object with data or simply a response code.
+
+If a `User` needed to be created, a request object would need to be sent to `/api/users` with all the associated data:
+
+```js
+{
+  "user": {
+    "name": "John Smith",
+    "handle": "smith89",
+  }  
+}
+```
+
+The backend parses that request object, saves a new record into the database and sends back a response object of the new user. If the request failed, an error code like `404` or `500` would get sent back:
+
+```js
+{
+  "user": {
+    "followers": "56f06aaab15ed56795a2a99b",
+    "name": "John Smith",
+    "handle": "smith89",
+    "_id": "56f06aaab15ed56795a2a99a",
+    "created": "2016-03-21T21:42:02.133Z",
+    "spotsCount": 0,
+    "followingCount": 0,
+    "followersCount": 0,
+    "likesCount": 0,
+    "following": []
+  }
+}
+```
 
 ### Frontend
 

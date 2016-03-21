@@ -26,7 +26,7 @@ Models are essentially a group of properties that get stored in the database.
 
 An example of a model would be a `Spot`, this table represents all the properties:
 
-| Name | Type | Description
+| Property | Type | Description
 | --- | --- | --- | ---
 | `type` | `String` | Specify how to display this Spot. One of `photo`, `video`, `mixed` or `location`.
 | `title` | `String` | Title of the Spot.

@@ -20,7 +20,7 @@ This would allow me to develop a highly performant product for iOS first and the
 
 ### Requirements
 - A database that stores all information and relationships.
-- A back-end API service that acts as a link between the front-end interfaces and the database. Every record has to be able to be read, created, updated and deleted.
+- A backend API service that acts as a link between the front-end interfaces and the database. Every record has to be able to be read, created, updated and deleted.
 - An app interface that provides a straight-forward user experience that could easily be translated to other platforms (iOS, Android and Web).
 - Camera view that allows a user to take a photo with location data, save it to the device's photo library and then be able to upload it to an external server.
 - Users should be able to create Spots with a title, caption, location and some form of media.

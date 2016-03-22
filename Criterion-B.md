@@ -99,7 +99,12 @@ Since the product was being developed with *React Native*, its paradigm of state
 The app uses 18 custom components and 16 views. Some examples of components would be `SpotCard` or `Avatar`, views would be `Camera` or `Profile`. Every view is made up of components and every component is made up sub-components.
 
 #### User Interface
-> Screenshots of UI, explain a bit of the design process (simplicty, contrast, legibilty etc.)
+
+The interface of this application needed to be very simple with very limited distractions.
+It's a content-heavy app, so elements like images and text should be front and center;
+the user should be able to interact with them with as much ease as possible.
+
+
 
 
 ## Testing

@@ -28,6 +28,6 @@ Overall, the client was very happy with the solution.
 - Private messaging between users.
 - Allow Users to make comments on Spots and reply to other comments.
 
-Word Count:
+Word Count: 321
 
 Total Word Count:

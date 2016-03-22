@@ -92,8 +92,13 @@ The backend parses that request object, saves a new record into the database and
 
 ### Frontend
 
-#### User Interface
-
 #### Components
+
+Since the product was being developed with *React Native*, its paradigm of stateful components needed to be implemented.
+
+The app uses 18 custom components and 16 views. Some examples of components would be `SpotCard` or `Avatar`, views would be `Camera` or `Profile`. Every view is made up of components and every component is made up sub-components.
+
+#### User Interface
+> Screenshots of UI, explain a bit of the design process (simplicty, contrast, legibilty etc.)
 
 Word Count: 

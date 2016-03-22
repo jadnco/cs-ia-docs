@@ -101,4 +101,7 @@ The app uses 18 custom components and 16 views. Some examples of components woul
 #### User Interface
 > Screenshots of UI, explain a bit of the design process (simplicty, contrast, legibilty etc.)
 
+
+## Testing
+> Table that describes how methods and features were tested.
 Word Count: 

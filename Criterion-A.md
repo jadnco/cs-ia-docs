@@ -16,22 +16,13 @@ Acknowledging my current skillset, I did some research to see what our options w
 In the end, we decided to go with a framework developed by *Facebook Inc.* called *React Native*. This was a good choice, because I already had experience writing React apps for web platforms – introducing native environments into the equation would be a nice opportunity to challenge myself.
 This would allow me to develop a highly performant product for iOS first and then eventually Android.
 
-## Criteria for Success
+## Success Criteria
 
-### Requirements
 - A database that stores all information and relationships.
 - A backend API service that acts as a link between the front-end interfaces and the database. Every record has to be able to be read, created, updated and deleted.
 - An app interface that provides a straight-forward user experience that could easily be translated to other platforms (iOS, Android and Web).
 - Camera view that allows a user to take a photo with location data, save it to the device's photo library and then be able to upload it to an external server.
 - Users should be able to create Spots with a title, caption, location and some form of media.
 - Users should be able to *like* Spots, and *follow* other users.
-
-### Extras (time permitting)
-- Develop a web interface that can be accessed through browsers.
-- Allow users to save other types of media other than just images (ie. looped videos, slideshows).
-- Third-party service integration; Allowing users to upload media from external services like Dropbox or Google Drive.
-- An interface where a user can make modifications to an image like cropping, adding filters etc.
-- Private messaging between users.
-- Allow Users to make comments on Spots and reply to other comments.
 
 Word Count: 

@@ -22,7 +22,7 @@ This product needed to be separated into two. The *backend* deals with running t
 
 Models are a group of properties that get stored in the database.
 
-An example of a model would be a `Spot`, this table represents all the properties:
+This table represents all the properties of a `Spot` model:
 
 | Property | Type | Description
 | --- | --- | --- | ---
@@ -60,35 +60,16 @@ Many models within the product share similar relationships.
 In order to modify a record within a database, the frontend needs to send a specific HTTP request to the backend server. The request will differ depending on each action you want to perform and to which record you want to perform it on.
 Every request sent to the server is accompanied with some sort of response; this might be an object with data or simply a response code.
 
-If a `User` needed to be created, a `POST` request object would need to be sent to `/api/users` with some associated data:
+Each request is sent via an HTTP verb of POST, GET, PUT or DELETE.
 
-```js
-{
-  "user": {
-    "name": "John Smith",
-    "handle": "smith89"
-  }  
-}
-```
-
-The backend parses that request object, saves a new record into the database and sends back a response object of the new user. If the request failed, an error code like `404` or `500` would get sent back:
-
-```js
-{
-  "user": {
-    "followers": "56f06aaab15ed56795a2a99b",
-    "name": "John Smith",
-    "handle": "smith89",
-    "_id": "56f06aaab15ed56795a2a99a",
-    "created": "2016-03-21T21:42:02.133Z",
-    "spotsCount": 0,
-    "followingCount": 0,
-    "followersCount": 0,
-    "likesCount": 0,
-    "following": []
-  }
-}
-```
+| Route | POST | GET | PUT | DELETE |
+|------------------------|---------------------------|----------------------------------------------------------|-------------------------|-------------------------|
+| `/spots` | Create a new Spot record. | List all Spot records. | - | - |
+| `/spots/123` | - | Show the Spot record with an `id` of `123`. | Update the Spot record. | Delete the Spot record. |
+| `/users` | Create a new User record | List all User records. | - | - |
+| `/users/789` | - | Show the User record with an `id` of `789`. | Update the User record. | Delete the User record. |
+| `/users/789/followers` | - | List all Users following the User with an `id` of `789`. | Add a new follower. | Remove a follower. |
+| ... | ... | ... | ... | ... |
 
 ### Frontend
 

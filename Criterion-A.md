@@ -25,4 +25,4 @@ This would allow me to develop a highly performant product for iOS first and the
 - Users should be able to create Spots with a title, caption, location and some form of media.
 - Users should be able to *like* Spots, and *follow* other users.
 
-Word Count: 
+Word Count: 377

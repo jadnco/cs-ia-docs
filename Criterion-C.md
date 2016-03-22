@@ -33,7 +33,6 @@ and make sure I wasn't re-inventing the wheel.
 
 - Art
 - Flow
-
 - React Native
 - react-native-camera
 - react-native-maps

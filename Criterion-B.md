@@ -104,8 +104,7 @@ The interface of this application needed to be very simple with very limited dis
 It's a content-heavy app, so elements like images and text should be front and center;
 the user should be able to interact with them with as much ease as possible.
 
-
-
+![screenshots](screenshots/locus-screenshots.png)
 
 ## Testing
 > Table that describes how methods and features were tested.

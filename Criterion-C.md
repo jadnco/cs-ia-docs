@@ -1,6 +1,16 @@
 # Criterion C: Development
 > List techniques used in app (ie. classes, methods, navigation stack, file handling, camera, database integration)
 
+Both parts of the app, the frontend and the backend, are written in JavaScript with the ECMAScript 2015 specification.
+I chose JavaScript because it is the language I have most experience working with and has one of the largest open-source communities.
+I knew if I were to run into any problems, it wouldn't be to hard to find assistance online.
+
+Tools like React Native were chosen because it provides a bridge between JavaScript and native code (Objective-C, Swift and Java).
+Being able to take advantage of iOS's and Android's native APIs would be necassary. React Native allowed me to do this without spending too much time digging into new languages.
+React Native provided high development efficiency – I could take an app written for iOS and then very easily translate it into an app for Android.
+
+Node.js, Express and Mongoose were used to build the backend because, again, I had the most experience with the stack and the developer community was very open.
+
 ## Classes
 > Describe how and why classes were used in the app
   and what differs from frontend differs from backend (ie. React components, Mongoose routes).
@@ -9,6 +19,15 @@
 ## Methods
 > How methods were used to accomplish goals.
   Go through some example methods in code.
+
+## Components
+
+React Native provides a very specific paradigm of develepment. Everything within the app is a *component*, within a tree structure.
+Every component has a list of properties and states. All data is sent downwards from components to child components and methods are sent upwards to mutate the state of parent components.
+This pattern gives me direct control over how everything within the app is rendered onto the screen.
+Components are only mounted when they are visible on the screen, not all at once when the app starts up; Re-rendering of components only happens when state is mutated – this process provides a highly efficient user interface.
+
+The product uses 18 custom components and 16 views. Some examples of components would be `SpotCard` or `Avatar`, views would be `Camera` or `Profile`. Every view is made up of components and every component is made up sub-components.
 
 ## Open Source Software
 

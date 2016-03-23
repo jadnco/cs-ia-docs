@@ -61,12 +61,6 @@ Each request is sent via an HTTP verb of POST, GET, PUT or DELETE.
 
 ### Frontend
 
-#### Components
-
-Since the product was being developed with *React Native*, its paradigm of stateful components needed to be implemented.
-
-The app uses 18 custom components and 16 views. Some examples of components would be `SpotCard` or `Avatar`, views would be `Camera` or `Profile`. Every view is made up of components and every component is made up sub-components.
-
 #### User Interface
 
 The interface of this application needed to be very simple with very limited distractions.

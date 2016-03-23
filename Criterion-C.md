@@ -84,7 +84,7 @@ A simple example of a component would be `GridOverlay`. It requires width, heigh
 React Native provides a `Navigator` API which is a stack of views. New views get pushed onto the top of the stack and popped out.
 The push and pop methods get sent down the component tree, then the individual components send stack mutations up to the root component, which displays the view on screen.
 
-![Navigation Stack Diagram](images/navigation-stack.svg)
+![Navigation Stack Diagram](images/navigation-stack.png)
 
 ## Open Source Software
 

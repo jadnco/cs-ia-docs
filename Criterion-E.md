@@ -29,5 +29,3 @@ Overall, the client was very happy with the solution.
 - Allow Users to make comments on Spots and reply to other comments.
 
 Word Count: 321
-
-Total Word Count:

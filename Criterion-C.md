@@ -115,4 +115,4 @@ and make sure I wasn't re-inventing the wheel.
 - react-native-tab-navigator
 - react-native-vector-icons
 
-Word Count: 
+Word Count: 709

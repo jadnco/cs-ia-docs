@@ -1,5 +1,4 @@
 # Criterion C: Development
-> List techniques used in app (ie. classes, methods, navigation stack, file handling, camera, database integration)
 
 Both parts of the app, the frontend and the backend, are written in JavaScript with the ECMAScript 2015 specification.
 I chose JavaScript because it is the language I have most experience working with and has one of the largest open-source communities.
@@ -10,7 +9,6 @@ Being able to take advantage of iOS's and Android's native APIs would be necassa
 React Native also provided high development efficiency – I could take an app written for iOS and then very easily translate it into an app for Android.
 
 Node.js, Express and Mongoose were used to build the backend because, again, I had the most experience with the stack and the developer community was very open.
-
 
 ## Techniques Used
 
@@ -81,8 +79,8 @@ A simple example of a component would be `GridOverlay`. It requires width, heigh
 
 ## Navigation Stack
 
-React Native provides a `Navigator` API which is a stack of views. New views get pushed onto the top of the stack and popped out.
-The push and pop methods get sent down the component tree, then the individual components send stack mutations up to the root component, which displays the view on screen.
+React Native provides a `Navigator` API which is a view stack. Views get pushed onto the top of the stack and popped out with user interaction (swipe gestures, back button).
+The push and pop methods get sent down the component tree, then the individual components send stack mutations up to the root component, which renders the topmost view on screen along with any transition animations.
 
 ![Navigation Stack Diagram](images/view-stack-new.png)
 
